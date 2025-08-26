@@ -1,0 +1,58 @@
+
+firstname="Justus"
+lastname="Selwyn"
+fullname=firstname+" "+lastname
+print(fullname)
+
+print("Your full name is: "+fullname)
+
+print("Enter first number: ")
+a=int(input())
+print("Enter the second number: ")
+b=int(input())
+
+c=a+b
+
+print("The sum of two numbers is: ",c)
+
+
+
+
+
+
+
+
+
+
+
+
+myname="Justus"
+lname="Selwyn"
+
+fullname = myname+lname
+
+print(fullname.find("t"))
+print(fullname.count("s"))
+
+print(fullname[0:15:2])
+xx=fullname[0:15:2]
+print(xx)
+
+print("My first name is {} and my last name is {}".format(myname,lname))
+print(len(fullname))
+
+print(fullname.find('e'))
+
+print(fullname.replace('s', 'a'))
+
+
+
+dob="02"
+
+months = ["Jan", "Feb", "Mar"]
+months.append("Apr")
+months.pop(2)
+
+print(months[int(dob)])
+print(months)
+
